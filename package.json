@@ -1,0 +1,17 @@
+{
+  "name": "cypresstypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stage6": "cypress/e2e/Stage6.cy.ts",
+    "stage7": "cypress/e2e/Stage7.cy.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3",
+    "typescript": "^5.1.6"
+  }
+}
